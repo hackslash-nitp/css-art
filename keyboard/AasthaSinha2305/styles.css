@@ -1,0 +1,551 @@
+
+html{
+  overflow: scroll;
+}
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.container,.outsquare,.keypadsquare,.touchpad,.sqbutton
+{
+  position: absolute;
+}
+/*
+span
+{
+  margin-left:20px;
+  font-family: sans-serif;
+  font-size:12px;
+  background: green;
+}*/
+p
+{
+  margin:20px 23px;
+  font-family: sans-serif;
+}
+.container
+{
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width:975px;
+  height: 660px;
+}
+
+.outsquare
+{
+  width: 975px;
+  height: 660px;
+  background: rgba(255,219,203);/*#F7CAC9#FFCCB3*/;
+  border-radius: 30px;
+}
+.keypadsquare
+{
+
+  width: 896px;
+  height: 368px;
+  border-radius: 10px;
+  top: 35px;
+  left: 40px;
+  box-shadow: inset 0 0 7px 0 rgb(0,0,0,1);
+
+}
+.touchpad
+{
+
+  width: 400px;
+  height: 230px;
+  box-shadow: inset 0 0 4px 0 rgb(0,0,0,1);
+  border-radius: 10px;
+  top: 415px;
+  left: 285px;
+}
+
+.sqbutton
+{
+  box-shadow: inset 0 0 10px 0 black;
+  color: white;
+  width: 55px;
+  height: 55px;
+  background:#253529;
+  border-radius: 5px;
+
+}
+.button15
+{
+  top: 50px;
+  left: 8px;
+}
+
+.button16
+{
+  top: 50px;
+  left: 68px;
+}
+.button17
+{
+  top: 50px;
+  left: 128px;
+}
+.button18
+{
+  top: 50px;
+  left: 188px;
+}
+.button19
+{
+  top: 50px;
+  left: 248px;
+}
+.button20
+{
+  top: 50px;
+  left: 308px;
+}
+.button21
+{
+  top: 50px;
+  left: 368px;
+}
+.button22
+{
+  top: 50px;
+  left: 428px;
+}
+.button23
+{
+  top: 50px;
+  left: 488px;
+}
+.button24
+{
+  top: 50px;
+  left: 548px;
+}
+
+.button25
+{
+  top: 50px;
+  left: 608px;
+}
+.button26
+{
+  top: 50px;
+  left: 668px;
+}
+.button27
+{
+  top: 50px;
+  left: 728px;
+}
+.button28
+{
+  position: absolute;
+  box-shadow: inset 0 0 10px 0 black;
+  color: white;
+  width: 100px;
+  height: 55px;
+  background:#253529;
+  border-radius: 5px;
+  top: 50px;
+  left: 788px;
+}
+.flbutton
+{
+  box-shadow: inset 0 0 10px 0 black;
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  width: 60px;
+  height: 35px;
+  background:#253529;
+  border-radius: 5px;
+}
+.button1
+{
+
+  top: 7px;
+  left: 8px;
+}
+
+.button2
+{
+  top: 7px;
+  left: 73px;
+}
+.button3
+{
+  top: 7px;
+  left: 138px;
+}
+.button4
+{
+  top: 7px;
+  left: 203px;
+}
+.button5
+{
+  top: 7px;
+  left: 268px;
+}
+.button6
+{
+  top: 7px;
+  left: 333px;
+}
+.button7
+{
+  top: 7px;
+  left: 398px;
+}
+.button8
+{
+  top: 7px;
+  left: 463px;
+}
+.button9
+{
+  top: 7px;
+  left: 528px;
+}
+.button10
+{
+  top: 7px;
+  left: 593px;
+}
+
+.button11
+{
+  top: 7px;
+  left: 658px;
+}
+.button12
+{
+  top: 7px;
+  left: 723px;
+}
+.button13
+{
+  top: 7px;
+  left: 788px;
+}
+.button14
+{
+  box-shadow: inset 0 0 10px 0 black;
+  position: absolute;
+  top: 7px;
+  left: 853px;
+  width: 35px;
+  height: 35px;
+  background:#253529;
+  border-radius: 5px;
+}
+.button29
+{
+  box-shadow: inset 0 0 10px 0 black;
+  position: absolute;
+  color: white;
+  top: 113px;
+  left: 8px;
+  width: 100px;
+  height: 55px;
+  background:#253529;
+  border-radius: 5px;
+}
+.button30
+{
+  top: 113px;
+  left: 113px;
+}
+.button31
+{
+  top: 113px;
+  left: 173px;
+}
+.button32
+{
+  top: 113px;
+  left: 233px;
+}
+.button33
+{
+  top: 113px;
+  left: 293px;
+}
+.button34
+{
+  top: 113px;
+  left: 353px;
+}
+.button35
+{
+  top: 113px;
+  left:413px;
+}
+.button36
+{
+  top: 113px;
+  left: 473px;
+}
+.button37
+{
+  top: 113px;
+  left: 533px;
+}
+.button38
+{
+  top: 113px;
+  left: 593px;
+}
+.button39
+{
+  top: 113px;
+  left: 654px;
+}
+.button40
+{
+  top: 113px;
+  left: 714px;
+}
+.button41
+{
+  top: 113px;
+  left: 774px;
+}
+.button42
+{
+  top: 113px;
+  left: 834px;
+}
+.button43
+{
+  box-shadow: inset 0 0 10px 0 black;
+  color: white;
+  position: absolute;
+  top: 176px;
+  left: 8px;
+  width: 110px;
+  height: 55px;
+  background:#253529;
+  border-radius: 5px;
+}
+.button44
+{
+  top: 176px;
+  left: 123px;
+}
+.button45
+{
+  top: 176px;
+  left: 184px;
+}
+.button46
+{
+  top: 176px;
+  left: 245px;
+}
+.button47
+{
+  top: 176px;
+  left: 305px;
+}
+.button48
+{
+  top: 176px;
+  left: 365px;
+}
+.button49
+{
+  top: 176px;
+  left: 425px;
+}
+.button50
+{
+  top: 176px;
+  left: 485px;
+}
+.button51
+{
+  top: 176px;
+  left: 545px;
+}
+.button52
+{
+  top: 176px;
+  left: 605px;
+}
+.button53
+{
+  top: 176px;
+  left: 665px;
+}
+.button54
+{
+  top: 176px;
+  left: 725px;
+}
+.button55
+{
+  box-shadow: inset 0 0 10px 0 black;
+  color: white;
+  position: absolute;
+  top: 176px;
+  left: 785px;
+  width: 104px;
+  height: 55px;
+  background:#253529;
+  border-radius: 5px;
+}
+.button56
+{
+  box-shadow: inset 0 0 10px 0 black;
+  color: white;
+  position: absolute;
+  top: 239px;
+  left: 8px;
+  width: 135px;
+  height: 55px;
+  background:#253529;
+  border-radius: 5px;
+}
+
+.button57
+{
+  top: 239px;
+  left: 149px;
+}
+.button58
+{
+  top: 239px;
+  left: 210px;
+}
+.button59
+{
+  top: 239px;
+  left: 271px;
+}
+.button60
+{
+  top: 239px;
+  left: 332px;
+}
+.button61
+{
+  top: 239px;
+  left: 393px;
+}
+.button62
+{
+  top: 239px;
+  left: 454px;
+}
+.button63
+{
+  top: 239px;
+  left: 514px;
+}
+.button64
+{
+  top: 239px;
+  left: 574px;
+}
+.button65
+{
+  top: 239px;
+  left: 634px;
+}
+.button66
+{
+  top: 239px;
+  left: 694px;
+}
+.button67
+{
+  box-shadow: inset 0 0 10px 0 black;
+  color: white;
+  position: absolute;
+  top: 239px;
+  left: 754px;
+  width: 135px;
+  height: 55px;
+  background:#253529;
+  border-radius: 5px;
+}
+
+.button68
+{
+  top: 302px;
+  left: 8px;
+}
+.button69
+{
+  top: 302px;
+  left: 68px;
+}
+
+.button70
+{
+  top: 302px;
+  left: 128px;
+}
+.button71
+{
+  box-shadow: inset 0 0 10px 0 black;
+  color: white;
+  position: absolute;
+  top: 302px;
+  left: 188px;
+  width: 70px;
+  height: 55px;
+  background:#253529;
+  border-radius: 5px;
+}
+.button72
+{
+  box-shadow: inset 0 0 10px 0 black;
+  color: white;
+  position: absolute;
+  top: 302px;
+  left: 265px;
+  width: 308px;
+  height: 55px;
+  background:#253529;
+  border-radius: 5px;
+}
+.button73
+{
+  box-shadow: inset 0 0 10px 0 black;
+  color: white;
+  position: absolute;
+  top: 302px;
+  left: 579px;
+  width: 70px;
+  height: 55px;
+  background:#253529;
+  border-radius: 5px;
+}
+.button74
+{
+  top: 302px;
+  left: 654px;
+}
+.button75
+{
+  top: 302px;
+  left: 714px;
+}
+.button76
+{
+  top: 302px;
+  left: 774px;
+}
+.button77
+{
+  top: 302px;
+  left: 834px;
+}
