@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <form id="area">
+        <textarea id="output"placeholder="Enter Command!"style="width:100%;height:60px;border-radius:5px;"></textarea>
+    </form>
+    <div class="container">
+            <div class="row1">
+                <button class="fn">esc</button>
+                <button class="fn">f1</button>
+                <button class="fn">f2</button>
+                <button class="fn">f3</button>
+                <button class="fn">f4</button>
+                <button class="fn">f5</button>
+                <button class="fn">f6</button>
+                <button class="fn">f7</button>
+                <button class="fn">f8</button>
+                <button class="fn">f9</button>
+                <button class="fn">f10</button>
+                <button class="fn">f11</button>
+                <button class="fn">f12</button>
+                <button class="fn">prtsc</button>
+                <button class="fn">delete</button>
+                <button class="fn">power</button>
+            
+            </div>
+            <div class="row2">
+                <button class="btn" id="diff"onclick="num('`')">~<br>`</button>
+                <button class="btn"onclick="num('1')">!<br>1</button>
+                <button class="btn"onclick="num('2')">@<br>2</button>
+                <button class="btn"onclick="num('3')">#<br>3</button>
+                <button class="btn"onclick="num('4')">$<br>4</button>
+                <button class="btn"onclick="num('5')">%<br>5</button>
+                <button class="btn"onclick="num('6')">^<br>6</button>
+                <button class="btn"onclick="num('7')">&<br>7</button>
+                <button class="btn"onclick="num('8')">*<br>8</button>
+                <button class="btn"onclick="num('9')">(<br>9</button>
+                <button class="btn"onclick="num('0')">)<br>0</button>
+                <button class="btn"onclick="num('-')">_<br>-</button>
+                <button class="btn"onclick="num('=')">+<br>=</button>
+                <button class="btn" style="margin:1px;width:100px;"onclick="backspace()">&#60;<br>backspace</button>
+            
+            </div>
+            <div class="row3">
+                <button class="btn" style="width: 6em;"onclick="tab('')">tab &#8677;</button>
+                <button class="btn"onclick="Output('q')">Q<br></button>
+                <button class="btn"onclick="Output('w')">W<br></button>
+                <button class="btn"onclick="Output('e')">E<br></button>
+                <button class="btn"onclick="Output('r')">R<br></button>
+                <button class="btn"onclick="Output('t')">T<br></button>
+                <button class="btn"onclick="Output('y')">Y<br></button>
+                <button class="btn"onclick="Output('u')">U<br></button>
+                <button class="btn"onclick="Output('i')">I<br></button>
+                <button class="btn"onclick="Output('o')">O<br></button>
+                <button class="btn"onclick="Output('p')">P<br></button>
+                <button class="btn"onclick="Output('[')">{<br>[</button>
+                <button class="btn"onclick="Output(']')">}<br>]</button>
+                <button class="btn"onclick="diff2Output()">|<br>\</button>
+                
+            </div>
+            <div class="row4">
+                <button class="btn"style="width: 7em;"onclick="capital()">caps lock<div id="light"></div></button>
+                <button class="btn"onclick="Output('a')">A</button>
+                <button class="btn"onclick="Output('s')">S</button>
+                <button class="btn"onclick="Output('d')">D</button>
+                <button class="btn"onclick="Output('f')">F</button>
+                <button class="btn"onclick="Output('g')">G</button>
+                <button class="btn"onclick="Output('h')">H</button>
+                <button class="btn"onclick="Output('j')">J</button>
+                <button class="btn"onclick="Output('k')">K</button>
+                <button class="btn"onclick="Output('l')">L</button>
+                <button class="btn"onclick="Output(';')">:<br>;</button>
+                <button class="btn"onclick="diffOutput()">"<br>'</button>
+                <button class="btn "style="width:100px;"onclick="enter()">&#8629; enter</button>
+            
+            </div>
+            <div class="row5">
+                <button class="btn" style="width:9em;"onclick=shift()>shift&#8679;</button>
+                <button class="btn"onclick="Output('z')">Z</button>
+                <button class="btn"onclick="Output('x')">X</button>
+                <button class="btn"onclick="Output('c')">C</button>
+                <button class="btn"onclick="Output('v')">V</button>
+                <button class="btn"onclick="Output('b')">B</button>
+                <button class="btn"onclick="Output('n')">N</button>
+                <button class="btn"onclick="Output('m')">M</button>
+                <button class="btn"onclick="Output(',')">< <br> ,</button>
+                <button class="btn"onclick="Output('.')">> <br> .</button>
+                <button class="btn"onclick="Output('/')">?<br>/</button>
+                <button class="btn" style="width: 134px;">shift&#8679; </button>
+               
+            </div>
+            <div class="row6">
+                <button class="btn">ctrl</button>
+                <button class="btn">fn</button>
+                <button class="btn">win</button>
+                <button class="btn">alt</button>
+                <button class="btn" style="width:314px;"onclick="space()"></button>
+                <button class="btn">alt</button>
+                <button class="btn">ctrl</button>
+                <button class="btn" style="height:25px;margin-top: 29px;"><</button>
+                <div class="arrow">
+                    <button class="new btn">^</button>
+                    <button class="new btn">v</button>
+                </div>
+                <button class="btn"style="height:25px;margin-top: 29px;">></button>
+        
+            </div><hr>
+            
+        
+            <div class="row7">
+                <button class="tpButton"style="margin-top:20px;"></button>
+                <button class="touchButton" style="margin-left:130px;"></button>
+            </div>   
+    </div>
+
+    
+</body>
+<script type="text/javascript">
+    let capslock=0;
+    let shift=0;
+    function capital()
+    {
+        capslock=capslock+1;
+    
+        if(capslock%2!=0)
+        {
+            console.log(capslock)
+            document.getElementById('light').style.backgroundColor='white';
+
+            
+        }
+        else{
+            document.getElementById('light').style.backgroundColor='rgb(231, 224, 224)';
+        }
+    }
+    function Output(letter)
+    {
+            if(capslock%2!=0)
+            {
+            document.getElementById('output').value+=letter.toUpperCase();
+            }
+            else
+            {
+            document.getElementById('output').value+=letter;
+            }
+    }
+    function num(number)
+    {
+        document.getElementById('output').value+=number;
+    }
+    function tab()
+    {
+        document.getElementById('output').value+='    ';
+    }
+    function enter()
+    {
+        document.getElementById('output').value+='\n';
+    }
+    function space()
+    {
+        document.getElementById('output').value+=' ';
+    }
+    function backspace()
+    {
+        let str=document.getElementById('output').value;
+        document.getElementById('output').value=str.substr(0,str.length-1);
+    }
+    function diffOutput()
+    {
+        document.getElementById('output').value+="'";
+
+    }
+    function diff2Output()
+    {
+        document.getElementById('output').value+='\\';
+
+    }
+
+
+</script>
+
+</html>
