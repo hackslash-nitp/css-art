@@ -1,0 +1,312 @@
+.container-front{
+    width: 275px;
+    height:500px;
+    border-radius: 25px;
+    border: 5px solid darksalmon;
+   margin-top: 25px;
+   margin-left: 375px;
+   position: absolute;
+   padding: 7px;
+   background-color: black;
+}
+.maincon{
+    width: 285px;
+    height:500px;
+}
+.vol{
+    width: 5px;
+    height: 55px;
+    background-color: darksalmon;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 720px;
+    border-radius: 20%;
+}
+.up{
+    width: 5px;
+    height: 25px;
+    background-color: darksalmon;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 1010px;
+    border-radius: 20%;
+}
+.down{
+    width: 5px;
+    height: 35px;
+    background-color: darksalmon;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 1010px;
+    border-radius: 20%;
+}
+.container-back{
+    width: 275px;
+    height:500px;
+    border-radius: 25px;
+    border: 5px solid darksalmon;
+   margin-top: 75px;
+   margin-left: 725px;
+   position: absolute;
+}
+.screen{
+    background-color: white;
+    width: 275px;
+    height: 500px;
+    border-radius: 25px;
+}
+.mic-sensor {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 8px);
+    width: 55px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mic-sensor .mic {
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: grey;
+  }
+  
+  .mic-sensor .sensor {
+    background-color: #ccc;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+  }
+  .slider{
+      width: 85px;
+      height: 5px;
+      background-color: black;
+      border-radius: 50px;
+      position: absolute;
+      bottom: 15px;
+      left: 105px;
+  }
+  .back{
+      width: 275px;
+      height: 500px;
+      background-color:#f5cdaa;
+      border-radius: 20px;
+  }
+  .navbar{
+      background-color:#eae9e9;
+      width: 90px;
+      height: 500px;
+      opacity: 0.5;
+      position: absolute;
+      margin-left: 185px;
+      border-radius: 25px;
+  }
+  .network{
+      width: 10px;
+      height: 5px;
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      transform: translate(-50%, 8px);
+      left: 10%;
+  }
+  .wifi{
+      margin-left: 5px;
+  }
+  .battery{
+      margin-left: 6px;
+  }
+  .img1{
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      position: absolute;
+      margin-top: 50%;
+      margin-left: 20%;
+  }
+  .line1{
+      margin-top: 120%;
+  }
+  .img2{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 20%;
+}
+.img3{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 20%;
+}
+.line2{
+    margin-top: 130%;
+}
+.time{
+    position:absolute;
+    margin-left: 15%;
+    transform: translate(-50%, 8px);
+    font: bolder;
+    font-size: 15px;
+    margin-top: 0.17%;
+}
+.main{
+    position: absolute;
+    margin-top: 15%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 8%;
+}
+.name-heart{
+    position: absolute;
+    margin-top:25%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    display: inline;
+    float: left;
+}
+.follow{
+    position: absolute;
+    margin-top: 50%;
+    font-size: 13px;
+    margin-left: 2%;
+}
+.number{
+    display: inline;
+}
+.profile{
+    position: absolute;
+    display: flex;
+    width: 75px;
+    justify-content: space-between;
+    margin-top: 65%;
+    margin-left: 3%;
+}
+.topic{
+    position: absolute;
+    display: flex;
+    width: 73px;
+    justify-content: space-between;
+    margin-top: 75%;
+    margin-left: 3%;
+}
+.list{
+    position: absolute;
+    display: flex;
+    width: 61px;
+    justify-content: space-between;
+    margin-top: 85%;
+    margin-left: 3%;
+}
+.bookmark{
+    position: absolute;
+    display: flex;
+    width: 97px;
+    justify-content: space-between;
+    margin-top: 95%;
+    margin-left: 3%;
+}
+.moment{
+    position: absolute;
+    display: flex;
+    width: 86px;
+    justify-content: space-between;
+    margin-top: 105%;
+    margin-left: 3%;
+}
+.l1{
+    font-size: 12px;
+}
+.line{
+    position: absolute;
+    width: 185px;
+    margin-top: 120%;
+}
+.set{
+    position: absolute;
+    margin-top: 125%;
+    margin-left: 3%;
+}
+.help{
+    position: absolute;
+    margin-top: 132%;
+    margin-left: 3%;
+}
+.iconn{
+    position: absolute;
+    margin-top: 160%;
+    margin-left: 3%;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.apple{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 41%;
+}
+.cameras{
+    background-color:#f5cdaa;
+    opacity: 0.5;
+    width: 110px;
+    height: 115px;
+    border-radius: 25%;
+    border: 3px solid darksalmon;
+}
+.cam1{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: black;
+    border: 4px solid silver;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.len1{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: rgb(12, 12, 56);
+    border-radius: 50%;
+    transform: translate(-50%, 8px);
+    border: 1px solid silver;
+    margin-left: 19px;
+    margin-top: 1.5px;
+}
+.cam2{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: black;
+    border: 4px solid silver;
+    margin-top: -70px;
+    margin-left: 50px;
+}
+.hole{
+    width: 7px;
+    height: 7px;
+    background-color: darkgrey;
+    border-radius: 50%;
+    margin-left: 70px;
+    border: 1px solid silver;
+    margin-top: 10px;
+}
+.round{
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        background-color: whitesmoke;
+        border-radius: 50%;
+        transform: translate(-50%, 8px);
+        border: 1px solid wheat;
+        margin-left: 69px;
+        margin-top: 1.5px;
+}
