@@ -1,0 +1,185 @@
+body{
+    background-color:#ffb3b3		;
+	;
+}
+.Board{
+    			box-shadow: -20px -20px 90px #505050;
+			margin-top: 200px;
+			border: 1px solid #eec1ad;
+			background-color: white;
+			height: 370px;
+			width: 1205px;
+                        border-radius: 1px;
+
+}
+.section-a{
+    height: 330px;
+    width:780px;
+    background:linear-gradient(75deg,#9370DB,#EE82EE,#F08080,
+                       #FA8072);
+float: left;
+margin: 20px 20px 20px 20px;
+font-weight: bold;
+   
+}
+.row1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px !important;
+    
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+}
+.row4{
+    display: flex;
+    flex-direction: row;
+}
+.row5{
+    display: flex;
+    flex-direction: row;}
+
+.row6 {
+    display: flex;
+    flex-direction: row;
+}
+.key{
+    			background-color: whitesmoke;
+			height: 40px;
+			width: 40px;
+                        line-height: 50px;
+                        padding-left: 8px;
+			text-align: center;
+			font-size: 15px;
+                        float: left; margin-left: 8px;margin-top: 13px;
+                        border-radius: 2px;
+                        box-shadow: -5px -5px 4px #505050 ;
+                        cursor: pointer;
+
+}
+.space{
+    width:404px;
+}
+.space1{
+    margin-right: 27px !important;
+}
+.space2{
+        margin-right: 18px !important;
+
+}
+
+.function{
+    font-size: 12px; width: 38px; height: 38px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.key:hover{
+     background-color: #7FFFD4;
+
+
+}
+.dual{
+    font-size: 14px; line-height: 20px; width: 35px;
+}
+.alph{
+    width:30px;
+}
+.backspace{
+    width:90px;
+}
+.tab{
+    width: 140px;
+}
+.caps{
+    width: 85px;
+}
+.shift{
+    width: 138px;
+}
+.ctrl{
+    width: 65px;
+}
+.section-b{
+    position:absolute;
+    height:330px;
+    width:172px;
+       background-color:#FA8072;
+color:#FFA500;
+    margin:20px 0 20px 790px;
+font-weight: bold;
+}
+
+.spcl-key{    background-color:#FA8072;
+             height: 172px;
+             
+}
+
+
+
+.firerose{
+    background-color:white;
+    height:100px;
+    font-wight: bold;
+}
+
+
+
+
+.hidden{
+    visibility: hidden;
+}
+
+.section-c{
+    
+    position: absolute;
+    height: 330px;
+    width: 220px;
+    margin:15px 20px 20px 960px;
+        font-weight: bold;
+
+}
+
+.numkey{
+            height: 270.5px;
+            background:linear-gradient(75deg,
+                       #FA8072,#FFA500);
+
+}
+.led{
+    height: 40px;
+    
+    margin:12.25px 0;
+}
+span{
+    
+    font-size: 32px;
+    margin: 0 30px;
+    color: blue;
+    
+}
+u{
+    color: red;
+    font-size: 20px;
+}
+.num{
+    width:35px;
+    color:#FFA500;
+    
+}
+.ans{
+    width: 85px;
+}
+.enter{
+    height: 90px;
+    text-align: center;
+}
+.min{
+    margin-top: -52px;
+}
