@@ -1,0 +1,77 @@
+body{
+	padding: 4px 4px 4px 4px;
+	color: red;
+}
+#Keyboard{
+	font-family: arial;
+	background-color: #2d132c;
+	padding-top: 35px;
+	padding-bottom: 12px;
+	border: 5px solid yellow;
+	border-radius: 25px;
+}
+.row-board{
+	text-align: center;
+}
+.row-board1{
+    text-align: center;
+ }
+#Left-side{
+	margin-left: -5px;
+	height: 300px;
+}
+#Right-side{
+	margin-left: -135px;
+	height: 300px;
+	text-align: center;
+}
+
+th{
+  	border:6px solid #851de0;
+  	padding-left:5px;
+  	padding-right: 5px;
+  	text-align: center;
+  	color:#fff;
+}
+#Tab{
+	width: 90px;
+}
+#Caps{
+	width:100px;
+}
+#shift{
+	width:120px;
+}
+#Back{
+	width:400px; 
+}
+#Enter1{
+	width:60px;
+}
+#Num{
+	width:80px; 
+}
+#table-2{
+    margin-top: 12px;  
+}
+#Plus{
+	width:60px;
+}
+#Mouse{
+	border: 5px solid yellow;
+	max-width: 300px;
+    height: 150px;
+	margin-top: 6rem;
+	margin-left: 360px;
+	border-radius: 15px;
+	text-align: center;
+	padding-top: 110px;
+	margin-bottom: 0.5rem;
+	color:yellow; 
+}
+#Left{
+    background-color:#851de0; 
+}
+.Bottom-Mouse{
+	background-color: black;
+}
