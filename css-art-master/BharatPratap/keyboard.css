@@ -1,0 +1,112 @@
+.btn {
+	box-shadow: 0px 0px 8px 1px #ffffff;
+	background:linear-gradient(to bottom, #1e241f 5%, #5c6358 100%);
+	background-color:#1e241f;
+	border-radius:6px;
+	border:1px solid #030303;
+	display:inline-block;
+	cursor:pointer;
+	color:#f7e8f7;
+	font-family:Arial;
+	font-size:17px;
+	padding:20px 22px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+  width: 15px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #5c6358 5%, #1e241f 100%);
+	background-color:#5c6358;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.l1 {
+
+    font-size: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    width: 18.8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.double {
+  padding-top: 5.6px;
+  padding-bottom: 5.6px;
+
+}
+.back1 {
+  background-color: #ffc38b;
+  padding : 45px 35px 5px 35px;
+  border-radius: 50px;
+  width: 70%;
+  margin : 0 auto;
+	text-align: center;
+}
+.back2 {
+  padding : 10px 10px;
+  border-style: inset;
+  border-radius: 20px;
+  background-color: #ffc370;
+}
+.back3 {
+    height: 180px;
+    border-radius: 10px;
+    width: 30%;
+    background-color: #ffc370;
+
+    margin:10px auto;
+
+    border-style: inset;
+}
+.shift {
+  width: 103px;
+}
+.command {
+  width: 60px;
+}
+.space {
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-top: 5px;
+}
+.option {
+  font-size: 15px;
+  width: 30px;
+}
+.control {
+  font-size: 15px;
+  width: 25px;
+  padding : auto auto;
+}
+.align {
+	position: relative;
+	top: 10px;
+}
+
+body {
+  line-height: 1.5
+}
+
+#delete {
+  width: 82px;
+    padding: 5px 20px 5px 20px;
+		text-align: right;
+}
+#tab {
+  width: 60px;
+	text-align: left;
+}
+#bs {
+  width: 32px;
+}
+#caps {
+  width: 80px;
+  padding : 20px 12px;
+}
+#return {
+  width: 89px;
+}

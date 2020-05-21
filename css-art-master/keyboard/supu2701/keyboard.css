@@ -1,0 +1,311 @@
+body{
+   background-color: #ff99cc;
+}
+#container{
+    
+        width: 810px;
+        height: 270px;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid grey;
+        margin: 100px auto;
+        box-shadow: -20px -30px 20px #33001a;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+#keyboard {
+  width: 767px;
+  height: 230px;
+  border-radius: 2px;
+  background: linear-gradient(to right, #993399, #ffa64d);
+  margin: 10px auto;
+  padding: 10px;
+  
+}
+
+.keygroup {
+  float: left;
+  margin-right: 0px;
+}
+
+.mainkeys {
+  width: 522px;
+}
+
+.subkeys {
+  width: 105px;
+}
+
+.numkeys {
+  width: 140px;
+  margin-right: 0px;
+}
+
+.row {
+  margin-bottom: 8px;
+  height: auto;
+}
+
+span {
+  background: #FFF;
+  box-shadow: 3px 3px 3px #999;
+  border-radius: 3px;
+  margin-right: 5px;
+  color: #404040;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  width: 30px;
+  display: block;
+  float: left;
+}
+
+.row-1 span {
+  height: 20px;
+  width: 30px;
+  line-height: 20px;
+  text-tranform: lowercase;
+}
+
+.mainkeys span {
+  text-transform: uppercase;
+}
+
+.mainkeys .row-1 span {
+  width: 32px;
+  text-transform: lowercase;
+}
+
+.mainkeys .row-1 span.fn {
+  text-transform: uppercase;
+}
+
+.mainkeys .row-6 span {
+  height: 40px;
+  line-height: 40px;
+}
+
+.keygroup .special {
+  text-align: left;
+  position: relative;
+  padding-left: 2px;
+  box-sizing: border-box;
+  line-height: 40px;
+  text-transform: lowercase;
+}
+
+.mainkeys .row-6 .special {
+  line-height: 53px;
+}
+
+.special.right {
+  text-align: right;
+  padding-left: 0;
+  padding-right: 2px;
+}
+
+.special-a {
+  width: 35px;
+  position: relative;
+}
+
+.special-a em {
+  font-size: 9px;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  line-height: 10px;
+}
+
+.special-b {
+  width: 60px;
+}
+
+.special-c {
+  width: 63px;
+}
+
+.special-d {
+  width: 80px;
+}
+
+.special-e {
+  width: 175px;
+  text-indent: -9999px;
+}
+
+.double {
+  line-height: 15px;
+}
+
+.double em {
+  display: block;
+}
+
+.subkeys span {
+  font-size: 9px;
+}
+
+.subkeys .double {
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+
+.subkeys .double em {
+  line-height: 10px;
+}
+
+.subkeys .row-4,
+.subkeys .row-5 {
+  height: 30px;
+  display: block;
+  width: 100%;
+}
+
+.subkeys .row-5 span {
+  float: none;
+  margin: 22px 35px 0;
+}
+
+.numkeys .row-6 span {
+  height: 40px;
+  line-height: 40px;
+}
+
+.numkeys .row-5 {
+  position: relative;
+}
+
+.numkeys .long {
+  position: absolute;
+  right: -35px;
+  top: 0px;
+  height: 81px;
+  line-height: 138px;
+}
+
+.keygroup .fn {
+  font-size: 6px;
+  box-sizing: border-box;
+  padding-top: 5px;
+  text-align: right;
+  padding-right: 5px;
+  text-transform: uppercase;
+}
+
+
+
+.sm-sun {
+  background-position: 7px 2px;
+}
+
+.sun {
+  background-position: 5px -16px;
+}
+
+.expose {
+  background-position: 6px -33px;
+  background-size: 60%;
+}
+
+.timer {
+  background-position: 6px -61px;
+  background-size: 70%;
+}
+
+.previous {
+  background-position: 8px -141px;
+}
+
+.play {
+  background-position: 8px -166px;
+}
+
+.next {
+  background-position: 8px -192px;
+}
+
+.mute {
+  background-position: 8px -221px;
+}
+
+.voldown {
+  background-position: 8px -243px;
+}
+
+.volup {
+  background-position: 8px -270px;
+}
+
+.eject {
+  text-indent: -9999px;
+  background-position: 8px -296px;
+}
+
+.command {
+  background-position: 45px -350px;
+  background-size: 47%;
+}
+
+.command.right {
+  background-position: -1px -350px;
+}
+
+.arr-up {
+  text-indent: -9999px;
+  background-position: 11px -360px;
+}
+
+.arr-left {
+  text-indent: -9999px;
+  background-position: 9px -390px;
+}
+
+.arr-down {
+  text-indent: -9999px;
+  background-position: 9px -416px;
+}
+
+.arr-right {
+  text-indent: -9999px;
+  background-position: 9px -448px;
+}
+
+.capslock {
+  position: relative;
+}
+
+.capslock:before {
+  position: absolute;
+  content: '.';
+  left: 2px;
+  top: -19px;
+  font-size: 25px;
+}
+
+.capslock.on:before {
+  color: #FC0;
+  text-shadow: 1px 1px 1px #dedede;
+}
