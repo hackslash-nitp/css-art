@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(68, 64, 64);
+    
+}
+.container{
+    width: 980px;
+    height: 550px;
+    background-color: rgb(185, 184, 184);
+    margin: auto;
+    padding-top:30px;
+    border-radius:10px;
+}
+.inner container{
+    border: 1px solid black;
+}
+.fn{
+    width:48.5px;
+    height:28px;
+    margin:2px;
+    border-radius: 10px;
+    background-color:silver;
+    border: 2px solid white;
+
+
+}
+#diff{
+    width:35px;
+    border-radius: 10px;
+}
+
+.btn{
+    width:54px;
+    height:54px;
+    border-radius: 10px;
+    margin:2px 2px 0px 2px;
+    background-color:silver;
+    border: 2px solid white;
+
+}
+.row1,.row2,.row3,.row4,.row5,.row6,.row7{
+    display:inline-flex;
+    
+    justify-content:center;
+    margin:auto;
+    width:100%;
+    padding:2px;
+    height:auto;
+    
+}
+.new{
+    display:grid;
+    height:25px;
+}
+.tpButton{
+    width:320px;
+    height:160px;
+    background-color:silver;
+    border-radius:10px;
+    border:1px solid white;
+    
+}
+.touchButton{
+    width:40px;
+    height:40px;
+    background-color: rgb(185, 179, 179);
+    position: absolute;
+    margin-top: 38px;
+    border-radius: 7px;
+    border:2px solid  rgb(167, 163, 163); 
+    
+}
+#light{
+    width: 5px;
+    height:5px;
+    
+    border-radius:5px;
+    position: absolute;
+    display:inline-block;
+    margin-left:8px;
+    margin-top: 6px;
+
+    
+    background-color:rgb(231, 224, 224);
+    
+
+
+}
+
+
