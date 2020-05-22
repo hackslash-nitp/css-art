@@ -1,0 +1,31 @@
+.body{
+    background-color: #ffb6b6;
+}
+.main{
+    height:375px;
+    width: 1136px;
+    margin-top: 80px;
+    margin-left: 80px;
+    border: 17px solid white;
+    background: linear-gradient(to right, #ea88ea, #ff5b2a);
+    box-shadow: -25px -25px 100px grey;
+}
+.btn{
+    
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 5px;
+    box-shadow: -2px -2px 5px grey;
+    border-radius: 0px;
+}
+.btn1{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 5px;
+}
