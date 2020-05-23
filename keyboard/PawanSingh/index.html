@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body onload="outputForm.reset();">
+    
+    <div class="outputContainer">
+        <form id="outputForm">
+            <textarea name="out" id="output" cols="2" rows="2" placeholder="Type Here!"></textarea>
+        </form>
+    </div>
+    <div class="container">
+        <div class="innerContainer">
+            <div class="row1">
+                <button class="fn">ESC</button>
+                <button class="fn">F1</button>
+                <button class="fn">F2</button>
+                <button class="fn">F3</button>
+                <button class="fn">F4</button>
+                <button class="fn">F5</button>
+                <button class="fn">F6</button>
+                <button class="fn">F7</button>
+                <button class="fn">F8</button>
+                <button class="fn">F9</button>
+                <button class="fn">F10</button>
+                <button class="fn">F11</button>
+                <button class="fn">F12</button>
+                <button class="fn">PRTSC</button>
+                <button class="fn" onclick="clearLabel()">DEL</button>
+                <button class="fn" style="margin-left: 10px;" onclick="outputForm.reset()">HOME</button>
+                <button class="fn">END</button>
+                <button class="fn">PGUP</button>
+                <button class="fn">PGDN</button>
+            </div>
+            <div class="row2">
+                <button class="btn" id="diff" onclick="alpha('`')">~<br>`</button>
+                <button class="btn" onclick="alpha('1')">!<br>1</button>
+                <button class="btn" onclick="alpha('2')">@<br>2</button>
+                <button class="btn" onclick="alpha('3')">#<br>3</button>
+                <button class="btn" onclick="alpha('4')">$<br>4</button>
+                <button class="btn" onclick="alpha('5')">%<br>5</button>
+                <button class="btn" onclick="alpha('6')">^<br>6</button>
+                <button class="btn" onclick="alpha('7')">&<br>7</button>
+                <button class="btn" onclick="alpha('8')">*<br>8</button>
+                <button class="btn" onclick="alpha('9')">(<br>9</button>
+                <button class="btn" onclick="alpha('0')">)<br>0</button>
+                <button class="btn" onclick="alpha('-')">_<br>-</button>
+                <button class="btn" onclick="alpha('=')">+<br>=</button>
+                <button class="btn" style="word-break: break-all; width: 9.15em;" onclick="back()">&#60;<br> BACKSPACE</button>
+                <button class="btn" onclick="numLight()" style="margin-left: 10px;"><div id="lightnum" style="margin-top: 0px; text-align: end;font-weight: 900; color: black;">.</div><div>NUM <br>LOCK</div></button>
+                <button class="btn" onclick="num('/')">/</button>
+                <button class="btn" onclick="num('*')">*</button>
+                <button class="btn" onclick="num('-')">-</button>
+            </div>
+            <div class="row3">
+                <button class="btn" style="width: 6em;" onclick="alpha('\t')">TAB &#8677;</button>
+                <button class="btn" onclick="alpha('q')">Q</button>
+                <button class="btn" onclick="alpha('w')">W</button>
+                <button class="btn" onclick="alpha('e')">E</button>
+                <button class="btn" onclick="alpha('r')">R</button>
+                <button class="btn" onclick="alpha('t')">T</button>
+                <button class="btn" onclick="alpha('y')">Y</button>
+                <button class="btn" onclick="alpha('u')">U</button>
+                <button class="btn" onclick="alpha('i')">I</button>
+                <button class="btn" onclick="alpha('o')">O</button>
+                <button class="btn" onclick="alpha('p')">P</button>
+                <button class="btn" onclick="alpha('[')">{<br>[</button>
+                <button class="btn" onclick="alpha(']')">}<br>]</button>
+                <button class="btn" onclick="alpha('\\')" style="width: 6.13em;">|<br>\</button>
+                <button class="btn" style="margin-left: 10px;" onclick="num('7')"> <br> 7 <br>HOME</button>
+                <button class="btn" onclick="num('8')">&#8963;<br> 8 <br></button>
+                <button class="btn" onclick="num('9')"><br> 9 <br>PGUP</button>
+                <button class="btn" onclick="num('+')">+</button>
+            </div>
+            <div class="row4">
+                <button class="btn" onclick="light()" style="width: 7em;"><div id="lightcap" style="margin-top: 0px; text-align: end;font-weight: 900; color: black;">.</div><div>CAPS LOCK</div></button>
+                <button class="btn" onclick="alpha('a')">A</button>
+                <button class="btn" onclick="alpha('s')">S</button>
+                <button class="btn" onclick="alpha('d')">D</button>
+                <button class="btn" onclick="alpha('f')">F</button>
+                <button class="btn" onclick="alpha('g')">G</button>
+                <button class="btn" onclick="alpha('h')">H</button>
+                <button class="btn" onclick="alpha('j')">J</button>
+                <button class="btn" onclick="alpha('k')">K</button>
+                <button class="btn" onclick="alpha('l')">L</button>
+                <button class="btn" onclick="alpha(';')">:<br>;</button>
+                <button class="btn" onclick="alpha('\u0027')">"<br>'</button>
+                <button class="btn" onclick=" enterKey()" style="width: 9.25em;">&#8629;  ENTER</button>
+                <button class="btn" style="margin-left: 10px;" onclick="num('4')"> < 4 </button>
+                <button class="btn" onclick="num('5')">5</button>
+                <button class="btn" onclick="num('6')">6 ></button>
+                <button class="btn"></button>
+            </div>
+            <div class="row5">
+                <button class="btn" style="width:9em;" onclick="shiftLight('l')"><div id="lshift">SHIFT &#8679;</div></button>
+                <button class="btn" onclick="alpha('z')">Z</button>
+                <button class="btn" onclick="alpha('x')">X</button>
+                <button class="btn" onclick="alpha('c')">C</button>
+                <button class="btn" onclick="alpha('v')">V</button>
+                <button class="btn" onclick="alpha('b')">B</button>
+                <button class="btn" onclick="alpha('n')">N</button>
+                <button class="btn" onclick="alpha('m')">M</button>
+                <button class="btn" onclick="alpha(',')">< <br> ,</button>
+                <button class="btn" onclick="alpha('.')">> <br> .</button>
+                <button class="btn" onclick="alpha('/')">?<br>/</button>
+                <button class="btn" style="width: 11.35em;" onclick="shiftLight('r')"> <div id="rshift">&#8679; SHIFT</div></button>
+                <button class="btn" style="margin-left: 10px;" onclick="num('1')"><br> 1 <br>END</button>
+                <button class="btn" onclick="num('2')"><br> 2 <br>&#8964;</button>
+                <button class="btn"  onclick="num('3')"> <br> 3 <br>PGDN</button>
+                <button class="btn" onclick="num('.')"><br>.<br>DEL</button>
+            </div>
+            <div class="row6">
+                <button class="btn" style="width: 4.9em;">CTRL</button>
+                <button class="btn">FN</button>
+                <button class="btn"><i class="fa fa-windows" style="color: rgb(126, 8, 194);" aria-hidden="true"></i></button>
+                <button class="btn">ALT</button>
+                <button class="btn" style="width: 23.7em;" onclick="alpha('space')"></button>
+                <button class="btn">ALT</button>
+                <button class="btn">CTRL</button>
+                <button class="btn"><i class="fa fa-caret-left fa-lg" aria-hidden="true"></i></button>
+                <div class="arrow">
+                    <button class="btn new"><i class="fa fa-caret-up fa-lg" aria-hidden="true"></i></button>
+                    <button class="btn new"><i class="fa fa-caret-down fa-lg" aria-hidden="true"></i></button>
+                </div>
+                <button class="btn"><i class="fa fa-caret-right fa-lg" aria-hidden="true"></i></button>
+                <button class="btn" style="margin-left: 10px; width: 8.18em;" onclick="num('0')"><br> 0 <br>INS</button>
+                <button class="btn" style="width: 8.18em;" onclick="num('\n')"> ENTER</button>
+            </div>
+        </div>
+        <div class="touchPad">
+            <button class="tpButton"  onclick="tpclk()" ondblclick="tpdblclk()"></button>
+            
+        </div>
+    </div>
+    <script type="text/javascript">
+        var capsl=false;
+        var numl=false;
+        var shift=false;
+        //setInterval(function() {document.getElementById('output').scrollIntoView(false); },5);
+        var m=new Map();
+        m.set('`','~');
+        m.set('1','!');
+        m.set('2','@');
+        m.set('3','#');
+        m.set('4','$');
+        m.set('5','%');
+        m.set('6','^');
+        m.set('7','&');
+        m.set('8','*');
+        m.set('9','(');
+        m.set('0',')');
+        m.set('-','_');
+        m.set('=','+');
+        m.set('[','{');
+        m.set(']','}');
+        m.set('\\','|');
+        m.set(';',':');
+        m.set('\u0027','"');
+        m.set(',','<');
+        m.set('.','>');
+        m.set('/','?');
+        var col=['red','green','brown','cadetblue','chocolate','darkblue','darkcyan','darkgoldenrod','black','royalblue'];
+        function light(){
+            capsl=!capsl;
+            //var color=document.getElementById('lightcap').style.color;
+            if(capsl==true){
+                document.getElementById('lightcap').style.color='rgb(126, 8, 194)';
+            }else{
+                document.getElementById('lightcap').style.color='black';
+            }
+            
+        }
+        function shiftLight(pos){
+            shift=!shift;
+            capsl=!capsl;
+            if(pos=='l'){
+                if(shift==true){
+                    document.getElementById("lshift").innerHTML = "SHIFT &#11014;";
+                }
+                else{
+                    document.getElementById("lshift").innerHTML = "SHIFT &#8679;";
+                }
+            }else{
+                if(shift==true){
+                    document.getElementById("rshift").innerHTML = "&#11014; SHIFT";
+                }
+                else{
+                    document.getElementById("rshift").innerHTML = "&#8679; SHIFT";
+                }
+            }
+        }
+        function numLight(){
+            numl=!numl;
+            if(numl==true){
+                    document.getElementById('lightnum').style.color='rgb(126, 8, 194)';
+            }else{
+                document.getElementById('lightnum').style.color='black';
+            }
+            
+        }
+        function alpha(alphabet){
+            var x= alphabet;
+            if(x=='space'){
+                document.getElementById('output').value += ' ';
+            }else{
+                if(m.has(x) && shift ==true){
+                    x= (m.get(x));
+                }
+                if(capsl==true){
+                    x=x.toUpperCase();
+                }
+                
+                document.getElementById('output').value += x;
+                
+            }
+            document.getElementById("output").scrollTop = document.getElementById("output").scrollHeight;      
+        
+        }
+        function enterKey(){
+            document.getElementById('output').value +='\n';
+            document.getElementById("output").scrollTop = document.getElementById("output").scrollHeight;      
+        }
+        function num(numkey){
+            if(numl==true){
+                document.getElementById('output').value += numkey;
+            }
+            document.getElementById("output").scrollTop = document.getElementById("output").scrollHeight;      
+        }	
+        function back(){
+            var x=document.getElementById('output').value;
+            x=x.toString();
+            if(x.length==1){
+                clearLabel();
+            }else{
+                x= x.substr(0,x.length-1);
+                
+                document.getElementById('output').value = x;
+            }
+        }
+        function clearLabel(){
+            document.getElementById('output').value='';
+        }
+        function tpclk(){
+            //document.getElementById('output').focus();
+            document.getElementById('output').select();
+        }
+        function tpdblclk(){
+            document.getElementById('output').focus();
+            document.getElementById('output').style.color=col[Math.ceil(Math.random()*10)];
+            
+        }
+    </script>
+</body>
