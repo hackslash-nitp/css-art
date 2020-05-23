@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Keyboard</title>
+	<link rel="stylesheet" type="text/css" href="style.css">	 
+</head>
+<body>
+
+	<div id="container">
+		<div class="notch">
+		</div>
+		<div class="power-alert" id="power">
+			<label class="alert">
+		</div>
+		<div class="power-button">
+			<button  id="powerbtn" onclick="changeAlert()"><img id="image" src="power.jpg.png"></button>
+		</div>
+		<div class="keys-container" id="Keyboard">
+
+			<!-- first row -->
+		   <div class="top">
+			<button class="top-row">esc</button>
+			<button class="top-row">f1</button>
+			<button class="top-row">f2</button>
+			<button class="top-row">f3</button>
+			<button class="top-row">f4</button>
+			<button class="top-row">f5</button>
+			<button class="top-row">f6</button>
+			<button class="top-row">f7</button>
+			<button class="top-row">f8</button>
+			<button class="top-row">f9</button>
+			<button class="top-row">f10</button>
+			<button class="top-row">f11</button>
+			<button class="top-row">f12</button>
+			<button class="top-row">pause break</button>
+			<button class="top-row">prt sc sysrq</button>
+			<button class="top-row" id="delete" onclick="clearLabel()">delete insert</button>
+			<button class="top-row">home</button>
+			<button class="top-row">pgup</button>
+			<button class="top-row">pgdn</button>
+			<button class="top-row">end</button>
+		  </div>
+
+		  <!-- second row -->
+		  <div class="second-row">
+		  	<button id="second-first">~ <br> `</button>
+			<button>! <br> 1</button>
+			<button>@ <br> 2 
+			</button>
+			<button># <br> 3</button>
+			<button>$ <br> 4</button>
+			<button>% <br> 5</button>
+			<button>^ <br> 6</button>
+			<button>& <br> 7</button>
+			<button>* <br> 8</button>
+			<button>( <br> 9</button>
+			<button>) <br> 0</button>
+			<button>_ <br> -</button>
+			<button>+ <br> =</button>
+			<button id="bck">backsapce</button>
+			<button id="num" onclick="numlight()"><div id="num-light"></div>num lk</button>
+			<button>/</button>
+			<button>*</button>
+			<button>-</button>
+		   </div>
+
+		   <!-- third row -->
+		     <div class="third-row">
+		  	<button id="tab">tab</button>
+			<button id="q" onclick="alpha('q')">Q</button>
+			<button id='w' onclick="alpha('w')">W</button>
+			<button id="e" onclick="alpha('e')">E</button>
+			<button id="r" onclick="alpha('r')">R</button>
+			<button id="t" onclick="alpha('t')">T</button>
+			<button id="y" onclick="alpha('y')">Y</button>
+			<button id="u" onclick="alpha('u')">U</button>
+			<button id="i" onclick="alpha('i')">I</button>
+			<button id="o" onclick="alpha('o')">O</button>
+			<button id="p" onclick="alpha('p')">P</button>
+			<button >{ </button>
+			<button>} </button>
+			<button id="sps">| </button>
+			<button>7</button>
+			<button>8</button>
+			<button>9</button>
+			<button id="plus">+</button>
+		   </div>
+
+		   <!-- fourth row -->
+		     <div class="fourth-row">
+		  	<button id="caps" onclick="light()"><div id="light"></div><div class="name">caps lock</div></button>
+			<button id="a" onclick="alpha('a')">A</button>
+			<button id="s" onclick="alpha('s')">S</button>
+			<button id="d" onclick="alpha('d')">D</button>
+			<button id="f" onclick="alpha('f')">F</button>
+			<button id="g" onclick="alpha('g')">G</button>
+			<button id="h" onclick="alpha('h')">H</button>
+			<button id="j" onclick="alpha('j')">J</button>
+			<button id="k" onclick="alpha('k')">K</button>
+			<button id="l" onclick="alpha('l')">L</button>
+			<button>: </button>
+			<button>" </button>
+			<button id="enter">enter</button>
+			<button>4</button>
+			<button>5</button>
+			<button>6</button>
+		   </div>
+
+		   <!-- fifth row -->
+		     <div class="fifth-row" id="fifth-row">
+		  	<button id="shift">shift</button>
+			<button id="z" onclick="alpha('z')">Z</button>
+			<button id="x" onclick="alpha('x')">X</button>
+			<button id="c" onclick="alpha('c')">C</button>
+			<button id="v" onclick="alpha('v')">V</button>
+			<button id="b" onclick="alpha('b')">B</button>
+			<button id="n" onclick="alpha('n')">N</button>
+			<button id="m" onclick="alpha('m')">M</button>
+			<button class="arrow">< </button>
+			<button class="arrow">> </button>
+			<button class="arrow">? </button>
+			<button id="shift-short">shift</button>
+			<button>&#8593;</button>
+			<button>1</button>
+			<button>2</button>
+			<button>3</button>
+			<button id="enter-long">enter</button>
+		   </div>
+
+		   <!-- sixth row -->
+		     <div class="sixth-row">
+		  	<button id="ctrl">ctrl</button>
+			<button>fn</button>
+			<button>#</button>
+			<button>alt</button>
+			<button id="space" onclick="alpha('space')"> space</button>
+			<button>alt</button>
+			<button>&#9728;</button>
+			<button id="ctrl-long">ctrl</button>
+			<button>&#8592;</button>
+			<button>&#8595;</button>
+			<button>&#8594;</button>
+			<button>0</button>
+			<button>.</button>
+		   </div>
+		</div>	
+		<div class="mouse-pad" id='mouse'>
+			<p>|</p>
+	    </div>	
+	</div>
+	<div class="result">
+	<p id="output"></p>
+	</div>	
+<script type="text/javascript">
+	alert("To Activate Keyboard Press The Power Button");
+	document.getElementById('powerbtn').style=" visibility: visible; margin-left:450px; margin-top:250px; height:100px; width:100px";
+	document.getElementById('image').style="visibility: visible; height:45px; width:60px;";
+
+
+	function changeAlert(){
+     var color=document.getElementById('power').style.backgroundColor;
+	if(color===''|| color=='red')
+	{
+		color="green";
+		 document.getElementById('power').style.backgroundColor=color;
+		 document.getElementById('Keyboard').style.visibility="visible";
+		  document.getElementById('mouse').style.visibility="visible";
+		  document.getElementById('powerbtn').style="visibility:visible; margin-top: 60px; margin-left: 28px;"
+		  document.getElementById('image').style="visibility: visible; height:15px; width:20px;";
+	}else{
+		color='red';
+			document.getElementById('Keyboard').style.visibility="hidden";
+			document.getElementById('power').style.backgroundColor=color;
+			 document.getElementById('mouse').style.visibility="hidden";
+			 document.getElementById('powerbtn').style=" visibility: visible; margin-left:450px; margin-top:250px; height:100px; width:100px";
+	document.getElementById('image').style="visibility: visible; height:45px; width:60px;";
+}
+}
+
+function light(){
+    var color=document.getElementById('light').style.backgroundColor;
+     if(color=='black'|| color==''){
+	document.getElementById('light').style.backgroundColor='white';
+		}else{
+			document.getElementById('light').style.backgroundColor='black';
+		}
+}
+
+function numlight(){
+    var color=document.getElementById('num-light').style.backgroundColor;
+     if(color=='black'|| color==''){
+	document.getElementById('num-light').style.backgroundColor='white';
+		}else{
+			document.getElementById('num-light').style.backgroundColor='black';
+		}
+
+}
+function alpha(alphabet){
+	if(alphabet=='space')
+	{ 
+		alpha=' ';
+		document.getElementById('output').innerHTML+=alpha;
+	}else{
+var alpha=document.getElementById(alphabet).innerHTML;
+document.getElementById('output').innerHTML+=alpha;
+}	
+}
+
+function clearLabel(){
+	document.getElementById('output').innerHTML='';
+}
+
+
+</script>
+</body>
+</html>
