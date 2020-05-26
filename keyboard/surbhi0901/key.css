@@ -1,0 +1,86 @@
+body
+{
+    background-color:rgb(122, 214, 137);
+    
+}
+.keyboard
+{
+   background-color: rgb(216, 129, 29);
+   border-style: solid;
+   border-radius: 20px;
+   border-color:rgb(216, 129, 29);
+   margin: 50px auto;
+   width: 780px;
+   
+ 
+}
+.mouse
+{
+    width: 780px;
+    height: 150px;
+    border-radius: 12px;
+    width:40% ;
+    border-style: solid;
+    border-color: rgb(172, 27, 27);
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.r1
+{
+    margin: 5px;
+}
+.key
+{
+ background-color:black;
+ display: inline-block;
+ border: 2px solid;border-color: blue;
+ border-radius: 7px;
+ font-size: 15px;
+ cursor: pointer;
+ padding: 3px 15px;
+ text-emphasis-color: white;
+ color: blanchedalmond;
+ text-shadow: 0px 1px 0px purple;
+}
+
+#backspace
+{
+    text-align: center;
+    padding: 3px 55px 20px 5px;
+}
+#tab
+{
+    text-align: right;
+    padding: 3px 55px 23px 8px;
+}
+#alpha
+{
+    padding: 3px 17px;
+    padding-bottom: 24px;
+}
+#caps
+{
+    padding:3px 35px 25px 5px;
+}
+#shift
+{
+    padding: 3px 80px 21px 3px;
+}
+#arrow
+{
+    padding-bottom: 2px;
+}
+#space
+{
+    padding:5px 136px 22px 130px ;
+}
+#r6
+{
+    padding: 6px 14px 20px 5px;
+}
+#f
+{
+    font-size: 12px;
+    padding: 4px 11.5px;
+}
