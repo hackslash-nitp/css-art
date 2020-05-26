@@ -1,0 +1,328 @@
+body{
+	background-color: white;
+}
+
+button{
+	cursor: pointer;
+}
+#container{
+	position: absolute;
+	border-radius: 20px;
+	border: solid;
+	border-color: black;
+	top:60px;
+	left:175px;
+	background-color: #D3D3D3;
+	border-color: #D3D3D3;
+	height:625px;
+
+}
+
+/* Element | file:///C:/Users/omcs/Desktop/PROJECT/keyboard/index.html */
+
+#num {
+  line-height: 1px;
+  font-size: 12px;
+}
+
+
+button:active{
+	background-color: black
+	;
+	box-shadow: 05px #666;
+	transform: translate(3px);
+}
+
+#Keyboard{
+	visibility: hidden;
+}
+
+#light{
+	background-color: black;
+	border-radius:5px;
+	width:2px;
+	height:3px;
+	white-space: pre;
+	margin-bottom: 2px;
+}
+#num-light{
+	background-color: black;
+	border-radius:5px;
+	width:2px;
+	height:3px;
+	white-space: pre;
+	margin-bottom: 5px;
+	margin-top:0px;
+	padding: 1px;
+}
+
+.power-alert{
+	margin-left:980px;
+	background-color: red;
+	width:20px;
+	height:20px;
+	border-radius:5px;
+}
+
+.power-button button{
+	visibility: hidden;
+	margin-top: 60px;
+	margin-left: 28px;
+	border:solid;
+	border-radius: 5px;
+	border-color: black;
+	background-color: black;
+	color:white;
+	height: 30px;
+	width:50px;
+}
+.power-button img{
+	visibility: hidden;
+	height:15px;
+	width: 30px;
+}
+
+.result{
+	margin-left: 165px;
+	border:solid;
+	border-color: gray;	
+	width:1000px;
+}
+
+.keys-container{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 290px;
+}
+
+.top-row{
+	position: relative;
+	border:solid;
+	border-radius: 5px;
+	border-color: black;
+	background-color: black;
+	color:white;
+	height:25px;
+	width:45px; 
+	text-align: center;
+	font-size: 10px;
+	padding: 7px;
+	line-height: 0.4px;
+	letter-spacing: 0.112em;
+	text-align: bottom;
+	white-space: pre;
+
+}
+button.top-row:nth-child(2-20){
+	left: 3px;
+}
+
+
+.second-row button{
+	margin-top: 5px;
+	position: relative;
+	border:solid;
+	border-radius: 5px;
+	border-color: black;
+	background-color: black;
+	color:white;
+	height:40px;
+	width:48px; 
+	text-align: center;
+	font-size: 13px;
+	padding: 5px;
+	line-height: 9px;
+
+
+}
+
+.third-row button{
+	position: relative;
+	border:solid;
+	border-radius: 5px;
+	border-color: black;
+	background-color: black;
+	color:white;
+	height:40px;
+	width:48px; 
+	text-align: center;
+	font-size: 13px;
+	padding: 5px;
+	line-height: 12px;
+	margin-top: 5px;
+
+}
+
+.fourth-row button{
+	position: relative;
+	border:solid;
+	border-radius: 5px;
+	border-color: black;
+	background-color: black;
+	color:white;
+	height:40px;
+	width:48px; 
+	text-align: center;
+	font-size: 13px;
+	padding: 5px;
+	margin-top: 5px;
+
+}
+
+.fifth-row button{
+	position: relative;
+	border:solid;
+	border-radius: 5px;
+	border-color: black;
+	background-color: black;
+	color:white;
+	height:40px;
+	width:48px; 
+	text-align: center;
+	font-size: 13px;
+	padding: 5px;
+	margin-top: 5px;
+
+}
+
+.sixth-row button{
+	position: relative;
+	border:solid;
+	border-radius: 5px;
+	border-color: black;
+	background-color: black;
+	color:white;
+	height:40px;
+	width:48px; 
+	text-align: center;
+	font-size: 13px;
+	padding: 5px;
+	line-height: 9px;
+
+}
+
+
+ #bck{
+	width:95px;
+	height: 40px;
+    line-height: 33px;
+    text-align: top;
+
+}
+
+/* Element | file:///C:/Users/omcs/Desktop/PROJECT/keyboard/index.html */
+
+.second-row > button:nth-child(16) {
+  line-height: 33px;
+}
+
+/* Element | file:///C:/Users/omcs/Desktop/PROJECT/keyboard/index.html */
+
+.second-row > button:nth-child(17) {
+  line-height: 33px;
+}
+
+/* Element | file:///C:/Users/omcs/Desktop/PROJECT/keyboard/index.html */
+
+.second-row > button:nth-child(18) {
+  line-height: 33px;
+}
+
+
+ #second-first{
+	width:50px;
+}
+ 
+
+#tab{
+	border-radius: 6px;
+	width: 80px;
+	text-align: left;
+}
+
+#caps{
+	width:98px;
+	text-align: left;
+
+}
+
+#sps{
+	width:65px;
+}
+
+#space{
+	width:240px;
+}
+
+#shift{
+	width:110px;
+	text-align: left;
+}
+
+#shift-short{
+	width:88px;
+}
+
+#enter{
+	width:100px;
+}
+
+.mouse-pad {
+	position:absolute;
+	left: 240px;
+	line-height: 1px;
+	border:solid;
+	height:190px;
+	width:320px;
+	border-radius: 10px;
+	border-style: groove;
+}
+
+.notch{
+	position: absolute;
+	
+	background-color: black;
+	border-radius:4px;
+	height: 45px;
+	width:700px;
+	margin-left: 150px;
+	margin-top: -2px;
+}
+
+#ctrl-long{
+	width:95px;
+}
+
+#mouse{
+	visibility: hidden;
+}
+
+#ctrl{
+	width:70px;
+	margin-top: 5px;
+	text-align: left;
+}
+
+#plus{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 5px;
+	height: 85px; 
+}
+#enter-long{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 5px;
+	height: 85px; 
+}
+#num{
+	white-space: pre;
+}
+
+.mouse-pad p{
+	text-align: center;
+	margin-top: 160px;px;
+	font-size: 30px;
+}
