@@ -1,0 +1,297 @@
+.blue {
+  width: 80vw;
+  height: 60vw;
+  background-color: #A9F5F2;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3%;
+}
+/* .mobilezone{
+padding-right: 3vw;
+} */
+#mobile1cover {
+  width: 19.7vw;
+  height: 35.5vw;
+  background-color: black;
+  margin-left: 22%;
+  border-radius: 1vw;
+  padding-top: 0.8%;
+  border: solid 0.4vw #BCA9F5;
+  box-shadow: 0.2vw 0.2vw 1vw #210B61;
+float:left;
+}
+.mobile1 {
+  width: 18.5vw;
+  height: 34.8vw;
+  background-color: white;
+  margin-left: 3%;
+  /* padding-top:0; */
+  border-radius: 1vw;
+float:left;
+}
+
+#mobile2 {
+  width: 17.7vw;
+  height: 34.5vw;
+  margin-right : 22%;
+  margin-top: 7%;
+  border-radius: 2.3vw;
+  border: solid 0.4vw #9F81F7;
+  box-shadow: 0.1vw 0.1vw 1vw 0 #210B61;
+padding-left: 1.5vw;
+padding-top: 1.5vw;
+float:right;
+  background-image: linear-gradient(#E6E0F8 10%,#BCA9F5 90%);
+}
+.upperbar {
+  height: 1.2vw;
+  width: 9vw;
+  border-radius: 3px 3px 16px 16px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+padding-bottom: 0.2vw;
+}
+.upperbarElement{
+  height: 0.9vw;
+  width: 5vw;
+  border-radius: 3px 3px 16px 16px;
+  background-color: grey;
+background-image: linear-gradient(to right,black 25%,grey ,black);
+  margin-left: 1vw;
+  /* margin-right: auto; */
+}
+.frontCam{
+  width: 1vw;
+  height: 1vw;
+  background-color: #0B0B61;
+background-image: linear-gradient(to right,black 25%,grey ,black);
+border-radius: 3vw;
+border:0.1vw solid #0B0B61;
+float:right;
+margin-right: 1.3vw;
+}
+.fa-firefox{
+float:right;
+margin-top: 1.1vw;
+position: relative;
+right:1vw;
+/* padding-right: 2vw; */
+/* margin-right: 1.1vw; */
+}
+.tiger1 {
+  height: 3.8vw;
+  width: 3.8vw;
+  border-radius: 40px;
+  margin-left: vw;
+margin-top: 1vw;
+
+}
+
+.content {
+  padding-left: 1vw;
+padding-bottom: 0.35vw;
+  padding-right: 1vw;
+}
+
+.foll {
+  margin-top: 1vw;
+  font-size: 0.9vw;
+}
+
+.options {
+  font-size: 0.99vw;
+  line-height: 0.8vw;
+  margin-top: 2vw;
+/* padding-bottom: 0.3vw; */
+}
+
+.name {
+  font-size: 1.2vw;
+}
+
+.sidebar {
+  float: right;
+  height: 34.8vw;
+  width: 4.5vw;
+  background-color: rgba(230, 230, 230, 0.8);
+  border-radius: 0 10px 10px 15px;
+}
+.tiger2 {
+  height: 2.7vw;
+  width: 2.7vw;
+  border-radius: 40px;
+  opacity: 0.7;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebarinside1{
+padding-left: 1vw;
+height:15%;
+padding-top: 1.8vw;
+}
+.sidebarinside2{
+padding-left: 1vw;
+height:30%;
+}
+.sidebarinside3{
+padding-left: 1vw;
+height:20%;
+}
+.sidebarinside4{
+padding-left: 1vw;
+height:15%;
+}
+.date {
+float:left;
+font-size: 1vw;
+margin-top: 0.2vw;
+}
+.fa-qrcode{
+position: relative;
+right:0.3vw;
+/* margin-right:1.2vw; */
+}
+.far{
+margin-right:1.2vw;
+}
+.heart{
+margin-left:0.5vw;
+}
+
+.footer {
+margin-top: 0.5vw;
+  padding-left: 1vw;
+  font-size: 0.99vw;
+  line-height: 0.8vw;
+padding-bottom: 0.3vw;
+}
+.bulb{
+/* position: relative;
+top:4vw; */
+margin-top:4.5vw;
+}
+.bar {
+  height: 0.45vw;
+  width: 6.5vw;
+  border-radius: 5px 5px 5px 5px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 1.3vw;
+/* position: absolute;
+top:8vw; */
+}
+.fa-qrcode{
+margin-left:7.8vw
+}
+.fab{
+margin-left:7vw;
+/* padding-top:2vw; */
+}
+.fa-signal,.fa-wifi,.fa-battery-three-quarters{
+padding-left: 0.37vw;
+}
+
+.camerazone{
+  width: 6vw;
+  height: 6vw;
+  background-color:#E6E0F8;
+border-radius: 1.8vw;
+padding:0.8vw;
+padding-bottom: 1.5vw;
+padding-right: 1.3vw;
+  box-shadow: inset 0px 0px 15px 0px #9F81F7;
+}
+.c1,.c2{
+border: 0.4vw solid #A9A9F5;
+  width: 2.6vw;
+  height: 2.6vw;
+  background-color: black;
+border-radius: 3vw;
+margin-bottom: 0.2vw;
+}
+.b1,.b2{
+    width: 1.7vw;
+    height: 1.7vw;
+    background-color: #0B0B61;
+ background-image: linear-gradient(to right ,#0B0B61 10%,black,grey,black,#0B0B61);
+  border-radius: 3vw;
+  margin-top: 0.4vw;
+  margin-left: 0.4vw;
+}
+.dots{
+float:right;
+
+/* margin-right: 0.8vw; */
+margin-left: auto;
+margin-right: auto;
+}
+.dot1{
+margin-top:1.3vw;
+  width: 0.55vw;
+  height: 0.55vw;
+  background-color: grey;
+border-radius: 3vw;
+float:right;
+margin-right: 0.6vw;
+box-shadow: -0.2vw -0.1vw 0.2vw 0 grey;
+}
+.dot2{
+margin-top:2.5vw;
+  width: 1.7vw;
+  height: 1.7vw;
+ background-image: linear-gradient(to right ,#F3F781 37%, white 20%,#F4FA58);
+border-radius: 3vw;
+  box-shadow: inset 0px 0px 0.4vw 0px #642EFE;
+}
+.c{
+margin-right: 2vw;
+}
+.apple{
+/* background-color: #D8CEF6; */
+width:6vw;
+height:6vw;
+/* margin-left: 6vw;
+margin-top: 10%; */
+position: relative;
+top:2.5vw;
+left:5vw;
+}
+.button{
+width:22px;
+height:4px;
+background-color: red;
+
+}
+.sidebutton1{
+position:absolute;
+width:0.4vw;
+height:3.5vw;
+background-color: #0B173B;
+opacity: 0.4;
+ margin-top: 5.5vw;
+margin-left: 18.1vw;
+border-radius: 0 1vw 1vw 0;
+}
+.sidebutton2{
+position: absolute;
+width:0.4vw;
+height:3.5vw;
+background-color: #0B173B;
+opacity: 0.4;
+margin-top: 2vw;
+margin-left: 18.1vw;
+border-radius: 0 1vw 1vw 0;
+}
+.powerbutton{
+  position: absolute;
+  width:0.3vw;
+  height:5.7vw;
+  background-color: #0B173B;
+  opacity: 0.4;
+  margin-top: 15vw;
+  margin-left: 42.13vw;
+  border-radius: 1vw 0 0 1vw ;
+}
